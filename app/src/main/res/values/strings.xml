@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Algoritmi</string>
+    <string name="inserimento">inserisci una parola</string>
+    <string name="buttonCalcoloText">calcolo</string>
+    <string name="stringaRisultatoText">cosa hai inserito</string>
+    <string name="hintDataNascita">inserisci la data di nascita as.1990-12-20</string>
+    <string name="maggioreEtaBtnText"> verifica maggiore eta</string>
+</resources>

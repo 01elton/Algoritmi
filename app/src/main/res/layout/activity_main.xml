@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:ems="10"
+        android:hint="@string/inserimento"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCalcolo"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:text="@string/buttonCalcoloText"
+        android:onClick="calcMaxNoRep"
+        />
+
+    <TextView
+        android:id="@+id/stringaRisultato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/insermentonascita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintDataNascita"
+        />
+
+    <Button
+        android:id="@+id/maggioreEtaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maggioreEtaBtnText"
+        android:onClick="onVerifiAge"
+        />
+
+    <TextView
+        android:id="@+id/verificaMaggiorenne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
